@@ -61,9 +61,14 @@
 
 <b>4. Reviews</b>
 <ul>
-    <li>
-        Create Review For Specific Movie: 
-        <a href="http://127.0.0.1:8000/api/watch/&lt;int:movie_id&gt;/reviews/create/">http://127.0.0.1:8000/api/watch/&lt;int:movie_id&gt;/reviews/create/</a>
-    </li>
-    <li>
-        List Of
+    <li>Create Review For Specific Movie: <a href="http://127.0.0.1:8000/api/watch/&lt;int:movie_id&gt;/reviews/create/">http://127.0.0.1:8000/api/watch/&lt;int:movie_id&gt;/reviews/create/</a></li>
+    <li>List Of All Reviews For Specific Movie: <a href="http://127.0.0.1:8000/api/watch/&lt;int:movie_id&gt;/reviews/">http://127.0.0.1:8000/api/watch/&lt;int:movie_id&gt;/reviews/</a></li>
+    <li>Access, Update & Destroy Individual Review: <a href="http://127.0.0.1:8000/api/watch/reviews/&lt;int:review_id&gt;/">http://127.0.0.1:8000/api/watch/reviews/&lt;int:review_id&gt;/</a></li>
+</ul>
+<br>
+
+<b>5. User Review</b>
+<ul>
+    <li>Access All Reviews For Specific User: <a href="http://127.0.0.1:8000/api/watch/user-reviews/?username=example">http://127.0.0.1:8000/api/watch/user-reviews/?username=example</a></li>
+</ul>
+<br>
