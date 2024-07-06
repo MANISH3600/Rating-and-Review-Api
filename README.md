@@ -1,14 +1,8 @@
 
-<br>
-
 <b>2. Accounts</b>
 <ul>
     <li>Registration: http://127.0.0.1:8000/api/account/register/</li>
-    Pass (Username Email Password Password2) as body 
-    
     <li>Login: http://127.0.0.1:8000/api/account/login/</li>
-    Pass (Username ,Password) as Body
-    
     <li>Logout: http://127.0.0.1:8000/api/account/logout/</li>
 </ul>
 <br>
